@@ -16,7 +16,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #54697E;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -46,18 +46,19 @@ header.masthead {
     background: #101010;
     padding: 20px;
 }
-
-
+h2{
+    color:#54697E;
+}
 
 h1{
     font-family: proxima-nova, sans-serif;
     font-weight: 100;
-    color : white;
+    color : #54697E;
 }
 
 p{
     font-family: proxima-nova, sans-serif;
-    color : black;
+    color : #54697E;
     text-align: center;
 
 }

@@ -31,9 +31,9 @@
 
 <!-- Navigation -->
 <ul class="menu">
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#contact">Contacto</a></li>
-    <li><a href="#about">Registro/Login</a></li>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="tienda">Tienda</a></li>
+
 </ul>
 
 <header class="masthead text-center text-white d-flex">
@@ -43,6 +43,7 @@
                 <h1 class="text-uppercase">
                     <p>Fabrica Nº1 en</p>
                     <p> piezas de competición</p>
+                    <img src="images/logo.png">
                 </h1>
             </div>
         </div>
