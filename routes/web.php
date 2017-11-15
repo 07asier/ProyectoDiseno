@@ -18,3 +18,7 @@ Route::get('/tienda', function () {
     return view('tienda');
 });
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
