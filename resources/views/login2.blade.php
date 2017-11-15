@@ -23,16 +23,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
-    <link href="css/estilosinicio.css" rel="stylesheet">
-
-
+    <link href="css/estiloslogin.css" rel="stylesheet">
 
 </head>
 
-<body >
-
-<!-- Navigation -->
+<body>
 
 <nav class="navbar-inverse" id="navbar">
     <div class="container-fluid">
@@ -42,7 +37,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#" id="titulo">SCParts</a>
+            <a class="navbar-brand" href="inicio" id="titulo">SCParts</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
@@ -51,62 +46,88 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="register2" id="menus"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
-                <li><a href="login2" id="menus"><span class="glyphicon glyphicon-log-in"></span> Iniciar sesión</a></li>
+
             </ul>
         </div>
     </div>
 </nav>
 
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Login</div>
 
+                <div class="panel-body">
+                    <form class="form-horizontal" method="POST" action="{{ route('login') }}">
+                        {{ csrf_field() }}
 
+                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                            <label for="email" class="col-md-4 control-label">Correo Electronico</label>
 
-<!--
-<ul class="menu">
-    <li><a href="#">Inicio</a></li>
-    <li><a href="tienda">Tienda</a></li>
-    <li><a href="register">Registro</a></li>
-    <li><a href="login">Login</a></li>
-</ul>
--->
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required autofocus>
 
+                                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
 
-<header class="masthead text-center text-white d-flex">
+                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                            <label for="password" class="col-md-4 control-label">Contraseña</label>
+
+                            <div class="col-md-6">
+                                <input id="password" type="password" class="form-control" name="password" required>
+
+                                @if ($errors->has('password'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Recordar datos
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-8 col-md-offset-4">
+                                <button type="submit" class="btn btn-primary">
+                                    Login
+                                </button>
+
+                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                    ¿Has olvidado la contraseña?
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header class="masthead">
     <div class="container my-auto">
         <div class="row">
             <div class="cuadro">
-                <h1 class="text-uppercase">
-                    <p>Fabrica Nº1 en</p>
-                    <p> piezas de competición</p>
-                    <img src="images/logo.png">
-                </h1>
+
             </div>
         </div>
     </div>
 </header>
-
-
-<section id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Apariciones</h2>
-                <hr class="my-4">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <p>Nuestras piezas tienen varias apariciones en los campeonatos mundiales.Por ejemplo aqui un video de un M3 E30 DTM</p>
-        </div>
-
-        <iframe class="video" width="420" height="315"
-                src="https://www.youtube.com/embed/-RBF0qHRsXw?autoload=1">
-        </iframe>
-
-    </div>
-    <hr class="my-4">
-</section>
 
 
 <footer>
@@ -153,7 +174,7 @@
                         </li>
                     </ul>
 
-                        <ul class="social">
+                    <ul class="social">
                         <li> <a href="https://es-es.facebook.com/"> <i class=" fa fa-facebook">   </i> </a> </li>
                         <li> <a href="https://twitter.com/?lang=es"> <i class="fa fa-twitter">   </i> </a> </li>
                         <li> <a href="https://plus.google.com/discover?hl=es"> <i class="fa fa-google-plus">   </i> </a> </li>
@@ -170,20 +191,5 @@
 
 </footer>
 
-
-
 </body>
-
-<script type="text/javascript">
-
-    function borrar(){
-        var emailtexto = document.getElementById("emailtexto");
-        emailtexto.value="";
-        alert("Enviado");
-
-        bootbox.alert("This is the default alert!");
-
-    }
-</script>
-
 </html>

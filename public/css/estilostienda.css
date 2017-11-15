@@ -1,7 +1,16 @@
-body{
-    background-image: url('../images/mantenimiento.png');
-    background-repeat: no-repeat;
-}
+
 p{
     font-family:Avenir, Helvetica, sans-serif;
+}
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(40em - 91px);
+    background-image: url("../images/mantenimiento.png");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
