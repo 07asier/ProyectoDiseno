@@ -30,11 +30,15 @@
 <body >
 
 <!-- Navigation -->
+
+
 <ul class="menu">
     <li><a href="#">Inicio</a></li>
     <li><a href="tienda">Tienda</a></li>
-
+    <li><a href="register">Registro</a></li>
+    <li><a href="login">Login</a></li>
 </ul>
+
 
 <header class="masthead text-center text-white d-flex">
     <div class="container my-auto">
