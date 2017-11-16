@@ -14,6 +14,9 @@
 Route::get('/inicio', function () {
     return view('inicio');
 });
+Route::get('/', function () {
+    return view('inicio');
+});
 Route::get('/tienda', function () {
     return view('tienda');
 });
@@ -23,9 +26,6 @@ Route::get('/login2', function () {
 Route::get('/register2', function () {
     return view('register2');
 });
-
-
-
 
 
 Auth::routes();

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Proyecto Diseño</title>
+    <title>NISMO</title>
 
     <!-- Latest compiled and minified CSS -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#" id="titulo">SCParts</a>
+            <a class="navbar-brand" href="#" id="titulo">NISMO</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
@@ -78,7 +78,7 @@
                 <h1 class="text-uppercase">
                     <p>Fabrica Nº1 en</p>
                     <p> piezas de competición</p>
-                    <img src="images/logo.png">
+                    <img src="images/nismo.png">
                 </h1>
             </div>
         </div>
@@ -97,11 +97,12 @@
     </div>
     <div class="container">
         <div class="row">
-            <p>Nuestras piezas tienen varias apariciones en los campeonatos mundiales.Por ejemplo aqui un video de un M3 E30 DTM</p>
+            <p class="text-center">Nuestras piezas tienen varias apariciones en los campeonatos mundiales.Por ejemplo aqui tenemos a Keiichi Tsuchiya rodando con un Skyline BN32 Gr.A junto a otros coches de la clase respectiva.</p>
+
         </div>
 
         <iframe class="video" width="420" height="315"
-                src="https://www.youtube.com/embed/-RBF0qHRsXw?autoload=1">
+                src="https://www.youtube.com/embed/DlljV0yAflM?autoload=1">
         </iframe>
 
     </div>
