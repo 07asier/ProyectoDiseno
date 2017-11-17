@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="images/nismo-2.png" /> <title>NISMO</title>
 
-    <title>NISMO</title>
 
     <!-- Latest compiled and minified CSS -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
@@ -50,8 +53,13 @@
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="register2" id="menus"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
-                <li><a href="login2" id="menus"><span class="glyphicon glyphicon-log-in"></span> Iniciar sesión</a></li>
+
+
+                <li><a href="register2" id="menus"><span class="glyphicon glyphicon-user color"></span> Registrarse</a></li>
+                <li><a href="login2" id="menus"><span class="glyphicon glyphicon-log-in color"></span> Iniciar sesión</a></li>
+
+
+
             </ul>
         </div>
     </div>
@@ -154,6 +162,7 @@
                         </li>
                     </ul>
 
+                        </br>
                         <ul class="social">
                         <li> <a href="https://es-es.facebook.com/"> <i class=" fa fa-facebook">   </i> </a> </li>
                         <li> <a href="https://twitter.com/?lang=es"> <i class="fa fa-twitter">   </i> </a> </li>

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>NISMO / Registro</title>
+    <link rel="shortcut icon" href="images/nismo-2.png" /><title>NISMO / Registro</title>
 
     <!-- Latest compiled and minified CSS -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -45,7 +45,7 @@
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="login2" id="menus"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesión</a></li>
+                <li class="color"><a href="login2" id="menus"><span class="glyphicon glyphicon-log-in color"></span> Iniciar Sesión</a></li>
 
             </ul>
         </div>

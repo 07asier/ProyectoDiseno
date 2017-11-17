@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>NISMO / Login</title>
+    <link rel="shortcut icon" href="images/nismo-2.png" /><title>NISMO / Login</title>
 
     <!-- Latest compiled and minified CSS -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="inicio" id="titulo">NISMO</a>
+            <a class="navbar-brand color" href="inicio" id="titulo">NISMO</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
@@ -45,7 +45,7 @@
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="register2" id="menus"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
+                <li><a href="register2" id="menus"><span class="glyphicon glyphicon-user color"></span> Registrarse</a></li>
 
             </ul>
         </div>
@@ -57,14 +57,14 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
+                <div class="panel-heading color">Login</div>
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label for="email" class="col-md-4 control-label">Correo Electronico</label>
+                            <label for="email" class="col-md-4 control-label color">Correo Electronico</label>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required autofocus>
@@ -78,7 +78,7 @@
                         </div>
 
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <label for="password" class="col-md-4 control-label">Contraseña</label>
+                            <label for="password" class="col-md-4 control-label color">Contraseña</label>
 
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control" name="password" required>
@@ -94,7 +94,8 @@
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <div class="checkbox">
-                                    <label>
+                                    <label class="color">
+                                    <!-- label class="color">-->
                                         <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Recordar datos
                                     </label>
                                 </div>
