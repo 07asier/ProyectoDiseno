@@ -20,11 +20,11 @@ Route::get('/', function () {
 Route::get('/tienda', function () {
     return view('tienda');
 });
-Route::get('/login2', function () {
-    return view('login2');
+Route::get('/login', function () {
+    return view('login');
 });
-Route::get('/register2', function () {
-    return view('register2');
+Route::get('/register', function () {
+    return view('register');
 });
 
 

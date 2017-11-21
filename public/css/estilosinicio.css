@@ -52,6 +52,14 @@ header.masthead {
 
 }
 
+header.imgnismo{
+    padding-top: 10rem;
+    background-image: url("../images/nismo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
 .cuadro {
     position:absolute;
     border-radius: 15px 50px 30px;

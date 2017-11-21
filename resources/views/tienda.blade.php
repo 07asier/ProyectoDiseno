@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 
-    <link rel="shortcut icon" href="images/nismo-2.png" /><title>NISMO / Tienda</title>
+    <link rel="shortcut icon" href="images/nismo-2.png" /><title>NISMO</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -45,8 +45,8 @@
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="login2" id="menus"><span class="glyphicon glyphicon-user color"></span> Login</a></li>
-                <li><a href="register2" id="menus"><span class="glyphicon glyphicon-user color"></span> Registrarse</a></li>
+                <li><a href="login" id="menus"><span class="glyphicon glyphicon-user color"></span> Iniciar sesión</a></li>
+                <li><a href="register" id="menus"><span class="glyphicon glyphicon-log-in color"></span> Registro</a></li>
 
             </ul>
         </div>
