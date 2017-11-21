@@ -37,8 +37,8 @@
 
 <!-- Navigation -->
 
-<nav class="navbar-inverse" id="navbar">
-    <div class="container-fluid">
+<nav class="navbar-inverse" >
+    <div class="container-fluid" id="navbar">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
