@@ -74,6 +74,20 @@ header.imgnismo{
     background: #101010;
     padding: 20px;
 }
+
+.cuadrotienda{
+    padding-top: 10rem;
+    padding-bottom: calc(40em - 91px);
+    background-image: url("../images/mantenimiento.png");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
 h2{
     color:#54697E;
 }
