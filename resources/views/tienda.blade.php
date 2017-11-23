@@ -42,7 +42,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li><a href="tienda" id="menus">Tienda</a></li>
-
+                <li><a href="contacto" id="menus">Contacto</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="login" id="menus"><span class="glyphicon glyphicon-user color"></span> Iniciar sesión</a></li>

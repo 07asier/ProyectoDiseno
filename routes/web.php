@@ -26,7 +26,9 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 });
-
+Route::get('/contacto', function () {
+    return view('contacto');
+});
 
 Auth::routes();
 

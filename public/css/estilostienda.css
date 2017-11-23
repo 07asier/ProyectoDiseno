@@ -1,3 +1,39 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+
+li {
+    float: left;
+}
+
+#titulo{
+    color: #f05f40;
+}
+#menus:hover{
+    color: #f05f40;
+}
+#navbar{
+    background-color: #222222;
+}
+
+
+
+
+li a {
+    display: block;
+    color: #54697E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
 
 p{
     font-family:Avenir, Helvetica, sans-serif;
